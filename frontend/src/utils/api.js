@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = process.env.REACT_APP_API_URL || 'https://data-management-platform.onrender.com';
+const API_BASE = process.env.REACT_APP_API_URL || 'https://data-management-platform.onrender.com/api/dq/upload';
 
 const api = axios.create({
   baseURL: API_BASE,
